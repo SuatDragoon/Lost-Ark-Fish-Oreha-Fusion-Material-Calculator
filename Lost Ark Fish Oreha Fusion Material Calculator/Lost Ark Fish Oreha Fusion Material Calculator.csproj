@@ -11,7 +11,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Oreha.ico" />
+    <Content Include="Oreha.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
